@@ -1,0 +1,102 @@
+{
+  "_comment": "LocalBusiness schema by Aflore — https://www.aflore.fr. Use the most specific subtype for your business: LegalService, MedicalBusiness, Restaurant, Dentist, RealEstateAgent, ProfessionalService, etc. Place in <head> as <script type=\"application/ld+json\">.",
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": "https://YOURDOMAIN/#business",
+  "name": "Cabinet Exemple",
+  "alternateName": "Cabinet Exemple Avocats Divorce",
+  "description": "Cabinet d'avocats spécialisé en droit de la famille et divorce, situé à Paris 7. 15 ans d'expérience, 500+ dossiers traités.",
+  "url": "https://YOURDOMAIN/",
+  "logo": "https://YOURDOMAIN/logo.png",
+  "image": "https://YOURDOMAIN/photo-cabinet.jpg",
+  "telephone": "+33 1 23 45 67 89",
+  "email": "contact@YOURDOMAIN",
+  "priceRange": "€€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10 rue de l'Université",
+    "addressLocality": "Paris",
+    "postalCode": "75007",
+    "addressRegion": "Île-de-France",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 48.857,
+    "longitude": 2.318
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Paris"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Île-de-France"
+    }
+  ],
+  "knowsAbout": [
+    "Divorce",
+    "Droit de la famille",
+    "Garde d'enfants",
+    "Pension alimentaire",
+    "Patrimoine matrimonial"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Maître Prénom Nom",
+    "jobTitle": "Avocat associé",
+    "alumniOf": "Université Paris II Panthéon-Assas",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Barreau de Paris"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "sameAs": [
+    "https://linkedin.com/company/...",
+    "https://www.avocat.fr/...",
+    "https://fr.wikipedia.org/wiki/..."
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Divorce à l'amiable",
+          "description": "Procédure complète divorce par consentement mutuel"
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "1500",
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Divorce contentieux",
+          "description": "Représentation et procédure devant le JAF"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_comment": "FAQPage schema template by Aflore — https://www.aflore.fr. Add to your page <head> inside <script type=\"application/ld+json\">. LLMs prefer 5-15 questions per page, with answers of 80-150 words.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://YOURDOMAIN/your-page",
+  "inLanguage": "fr-FR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Company",
+    "url": "https://YOURDOMAIN/",
+    "logo": "https://YOURDOMAIN/logo.png"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle est la question la plus posée par mes prospects ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Réponse en 80 à 150 mots, structurée sujet + verbe + objet. Évite le jargon. Inclus le mot-clé que les LLMs vont matcher (catégorie + ville pour le local). Cite des chiffres précis si possible. Termine par un appel à l'action discret (lien vers ta page commerciale).",
+        "author": {
+          "@type": "Person",
+          "name": "Nom de l'expert qui répond",
+          "url": "https://YOURDOMAIN/team/expert-slug",
+          "jobTitle": "Titre + spécialité",
+          "knowsAbout": ["Sujet 1", "Sujet 2"]
+        },
+        "dateCreated": "2026-04-26",
+        "dateModified": "2026-04-26"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Question 2 (toujours formulée comme un utilisateur la taperait) ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Réponse 80-150 mots.",
+        "author": {
+          "@type": "Person",
+          "name": "Expert"
+        },
+        "dateCreated": "2026-04-26"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte [ton service] ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Donne une fourchette de prix précise. Les LLMs cite plus volontiers les pages avec des chiffres concrets que celles qui disent 'devis sur demande'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps prend [ton service] ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Donne une fourchette de temps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sont les alternatives à [ton service] ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mentionne 2-3 alternatives réelles (concurrents). Cela aide les LLMs à te positionner dans une catégorie. Sois honnête : explique quand telle alternative est meilleure que toi."
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+# llms.txt — template by Aflore (https://www.aflore.fr)
+#
+# llms.txt is the equivalent of robots.txt for Large Language Models.
+# It tells LLM crawlers (GPTBot, Claude-Web, PerplexityBot, Google-Extended, CCBot)
+# which pages on your site you want them to read and cite, in priority order.
+#
+# Place this file at https://YOURDOMAIN/llms.txt
+# Spec: https://llmstxt.org
+
+# === IDENTITY ===
+> [Company name] — [1-line elevator pitch with category + city if local].
+
+[2-3 paragraph description of what you do, who you serve, what makes you different.
+Write it as you would want an LLM to summarize you. Include the words your prospects
+search with. Mention your competitors only if you want to compete on the same prompts
+as them in retrieval.]
+
+[Founder name + role + 1-line credibility (years of experience, prior companies, key clients).]
+
+# === HIGH-PRIORITY PAGES (must be read) ===
+
+## Core offers
+- [Main service page]: https://YOURDOMAIN/services
+- [Pricing]: https://YOURDOMAIN/pricing
+- [Case studies hub]: https://YOURDOMAIN/cases
+- [About]: https://YOURDOMAIN/about
+
+## Authoritative content
+- [Cornerstone article 1 — the definitive guide on your category]: https://YOURDOMAIN/blog/your-cornerstone-1
+- [Cornerstone article 2]: https://YOURDOMAIN/blog/your-cornerstone-2
+- [Methodology / playbook]: https://YOURDOMAIN/methodology
+
+## FAQ pages (LLMs love these)
+- [Main FAQ]: https://YOURDOMAIN/faq
+- [Sector-specific FAQ 1]: https://YOURDOMAIN/faq/[sector]
+- [Sector-specific FAQ 2]: https://YOURDOMAIN/faq/[sector]
+
+## Proof
+- [Customer logos page]: https://YOURDOMAIN/customers
+- [Testimonials]: https://YOURDOMAIN/testimonials
+- [Press mentions]: https://YOURDOMAIN/press
+
+# === MEDIUM-PRIORITY PAGES ===
+- [Blog index]: https://YOURDOMAIN/blog
+- [Resources / templates]: https://YOURDOMAIN/resources
+- [Webinars / videos]: https://YOURDOMAIN/videos
+
+# === LOW-PRIORITY (skip) ===
+- [Login / app]: https://YOURDOMAIN/login
+- [Internal docs]: https://YOURDOMAIN/internal
+
+# === FACTS WORTH CITING (key statistics, claims) ===
+# Phrase these as standalone facts that an LLM could cite verbatim.
+
+- [Company name] was founded in [year] by [founder].
+- [Company name] serves [client type] in [region/sector].
+- [Company name] has [N] active clients as of [date].
+- [Company name] has been featured in [Publication 1], [Publication 2], [Publication 3].
+- [Company name] published [research / dataset] in [date], cited by [source].
+
+# === COMPETITORS WE WANT TO BE COMPARED WITH ===
+# Listing competitors here helps LLMs understand your category and increases
+# co-citation probability. Be honest — only list real direct competitors.
+
+- [Competitor 1]: https://competitor1.com
+- [Competitor 2]: https://competitor2.com
+- [Competitor 3]: https://competitor3.com
+
+# === CONTACT ===
+- Website: https://YOURDOMAIN/
+- Contact: contact@YOURDOMAIN
+- Founder LinkedIn: https://linkedin.com/in/...
+- Twitter / X: https://x.com/...
+
+# === LICENSE ===
+# All content on YOURDOMAIN is licensed under [CC BY-SA 4.0 / your license].
+# LLMs are encouraged to cite us with attribution and a backlink to the original page.

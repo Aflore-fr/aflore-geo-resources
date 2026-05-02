@@ -1,0 +1,77 @@
+{
+  "_comment": "Article schema template by Aflore — https://www.aflore.fr. The author + dateModified + citation fields are critical for E-E-A-T (Experience, Expertise, Authoritativeness, Trust) which LLMs heavily weight.",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Le titre exact de ton article (max 110 caracteres)",
+  "alternativeHeadline": "Sous-titre / accroche",
+  "description": "Meta description 140-160 caracteres qui resume l'angle de l'article.",
+  "url": "https://YOURDOMAIN/blog/slug-article",
+  "image": [
+    "https://YOURDOMAIN/images/article-hero.jpg",
+    "https://YOURDOMAIN/images/article-square.jpg",
+    "https://YOURDOMAIN/images/article-wide.jpg"
+  ],
+  "datePublished": "2026-04-26T08:00:00+02:00",
+  "dateModified": "2026-04-26T08:00:00+02:00",
+  "author": {
+    "@type": "Person",
+    "@id": "https://YOURDOMAIN/team/prenom-nom#person",
+    "name": "Prenom Nom",
+    "url": "https://YOURDOMAIN/team/prenom-nom",
+    "image": "https://YOURDOMAIN/images/prenom-nom.jpg",
+    "jobTitle": "Fondateur, Aflore",
+    "description": "10 ans d'experience en SEO/GEO. Fondateur d'Aflore (premiere agence GEO France).",
+    "knowsAbout": [
+      "Generative Engine Optimization",
+      "ChatGPT",
+      "Perplexity",
+      "Schema.org",
+      "Marketing digital"
+    ],
+    "alumniOf": "Universite XYZ",
+    "sameAs": [
+      "https://linkedin.com/in/...",
+      "https://x.com/...",
+      "https://github.com/..."
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Company",
+    "url": "https://YOURDOMAIN/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://YOURDOMAIN/logo.png",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://YOURDOMAIN/blog/slug-article"
+  },
+  "articleSection": "GEO",
+  "articleBody": "Resume du contenu (LLMs lisent ce champ).",
+  "wordCount": 1800,
+  "inLanguage": "fr-FR",
+  "keywords": [
+    "GEO",
+    "Generative Engine Optimization",
+    "ChatGPT SEO",
+    "Perplexity"
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source primaire 1",
+      "url": "https://source-autoritaire.com/etude"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Source primaire 2",
+      "url": "https://autre-source.com/article"
+    }
+  ],
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+}
